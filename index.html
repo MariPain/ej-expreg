@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Formulario expresiones regulares</title>
 </head>
+
 <body>
     <form action="" method="get" id="form">
         <ul>
-            <input type="text" placeholder="E-mail" id="email">
-            <input type="password" placeholder="Password" name="password" id="password">
+            <li>
+                <input type="text" placeholder="E-mail" id="email">
+                <input type="password" placeholder="Password" name="password" id="password">
+
+            </li>
             <p>¿Qué raza eres?</p>
-            <input list="browser" name="browser" id="datalist">
-            <datalist>
+            <li>
+                <input list="browser" name="browser" id="datalist">
+                <datalist>
                     <option value="raza" id="datalist"></option>
-            </datalist>
+                </datalist>
+            </li>
 
             <button type="submit" id="btn">Enviar formulario</button>
         </ul>
     </form>
     <script src="./script.js"></script>
 </body>
+
 </html>
